@@ -1,0 +1,96 @@
+.Nega_work {
+    margin-top: 0px !important;
+    margin-bottom: -40px;
+    background-color: red;
+}
+
+.checkOut.Nega-work {
+/*    margin-top: -5em;*/
+    z-index: 99 !important;
+    position: absolute;
+    margin-left: 6.8em;
+    font-weight: 600;
+}
+
+.h3_checkout {
+    background: red;
+    margin-top: -90px;
+    height: 20px;
+}
+
+.content {
+display: none;
+}
+
+.client {
+    font-size: 11px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.GreyBackground {
+    background-color: #e9e9e9;
+}
+
+.highlight {
+    margin: 1.5em 0em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.WhiteGreyBackground {
+    background-color: white;
+}
+
+.BlackText {
+    color: black;
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+
+.work-01 {
+/*    background-image: url("../img/work-01/vape-1920x750.png");*/
+    background-color: red;
+    margin-top: 10px;
+}
+
+.worktext {
+    color: white;
+}
+
+.work-text-header {
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.work-text-subheader {
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+ 
+.work-content-layout {
+    padding-left: 6.8em;
+}
+
+.work-01-bg {
+    background-color: white;
+}
+
+.work-intro-text {
+    color: black;
+    letter-spacing: 0px;
+}
+
+.work-01-image {
+    background-color: #292929;
+}
+
+img.work-01-prototype {
+    margin: 40px 0;
+    width: 240%;
+}
