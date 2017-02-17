@@ -1,19 +1,20 @@
 
-$(".checkOut").click(function(){
+$(".h3_checkout").click(function(){
 
-    $checkOut = $(this);
+    $h3_checkout = $(this);
+    //$checkOut = $("#hider");
     //getting the next element
-    $content = $checkOut.next();
+    $content = $("#hider");
     //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
     $content.slideToggle(100,function(){
         //execute this after slideToggle is done
         //change text of header based on visibility of content div
-        $checkOut.text(function(){
+        $h3_checkout.text(function(){
             //change text based on condition
-            return $content.is(":visible")?"Close":".checkOut";
+            return $content.is(":visible")?"Close":"Check Out";
         });
-    });
 
+    });
 });
 
     //end work expand
@@ -437,7 +438,3 @@ $(document).ready(function () {
 
 
 });
-
-
-
-
