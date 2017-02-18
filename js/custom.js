@@ -11,7 +11,7 @@ $(".h3_checkout").click(function(){
         //change text of header based on visibility of content div
         $h3_checkout.text(function(){
             //change text based on condition
-            return $content.is(":visible")?"Check Out":"Check Out";
+            return $content.is(":visible")?"Close":"Check Out";
         });
 
     });
@@ -20,6 +20,7 @@ $(".h3_checkout").click(function(){
     //end work expand
 //start hide
 $(".close").click(function(){$(".content").hide(1000);
+                             $('.h3_checkout').html('Check out');
                            
                             });
 
