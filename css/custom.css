@@ -348,6 +348,7 @@ img.work-01-prototype {
     color: red;
 }
 /*end work-01*/
+<<<<<<< HEAD
 =======
 /*end work-01*/
 
@@ -356,3 +357,16 @@ img.work-01-prototype {
     color: white;
 }
 >>>>>>> Stashed changes
+=======
+
+
+/*start contact me*/
+
+#emailMe {
+    color: #ffffff;
+    text-decoration: underline;
+
+}
+
+/*end contact me */
+>>>>>>> origin/master
