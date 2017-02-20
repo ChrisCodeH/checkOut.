@@ -343,7 +343,16 @@ img.work-01-prototype {
     width: 240%;
 }
 
+<<<<<<< Updated upstream
 .client_link {
     color: red;
 }
 /*end work-01*/
+=======
+/*end work-01*/
+
+
+#emailMe {
+    color: white;
+}
+>>>>>>> Stashed changes
