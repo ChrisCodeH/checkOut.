@@ -39,6 +39,7 @@
 .content {
 display: none;
 margin-top: 0;
+overflow: hidden;
 }
 
 .client {
@@ -159,6 +160,8 @@ img.work-03-prototype {
 .content {
 display: none;
 margin-top: 0;
+max-width: 100%;
+overflow: hidden;
 }
 
 .client {
@@ -268,6 +271,7 @@ img.work-02-prototype {
 .content {
 display: none;
 margin-top: 0;
+overflow: hidden;
 }
 
 .client {
@@ -288,6 +292,10 @@ margin-top: 0;
 
 .WhiteGreyBackground {
     background-color: white;
+}
+
+.wireframe {
+  padding-right: 10%;
 }
 
 .BlackText {
@@ -343,10 +351,21 @@ img.work-01-prototype {
     width: 240%;
 }
 
+<<<<<<< Updated upstream
 .client_link {
     color: red;
 }
 /*end work-01*/
+<<<<<<< HEAD
+=======
+/*end work-01*/
+
+
+#emailMe {
+    color: white;
+}
+>>>>>>> Stashed changes
+=======
 
 
 /*start contact me*/
@@ -358,3 +377,4 @@ img.work-01-prototype {
 }
 
 /*end contact me */
+>>>>>>> origin/master
